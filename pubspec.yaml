@@ -1,0 +1,45 @@
+name: workouttime
+description: An app for managing and performing timed workouts
+publish_to: 'none'
+version: 1.7.1+13
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: 
+  path_provider: 
+  wakelock: 
+  dots_indicator: 
+  flutter_bloc: 
+  hydrated_bloc: 
+  equatable: 
+  numberpicker: 
+  soundpool: 
+  downloads_path_provider: 
+  flutter_speed_dial: 
+  file_picker: 
+  timeline_tile: 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  flutter_launcher_icons:
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - workouts.json
+    - stopwatch.png
+    - beep.oga
+    - ding.oga
+    - applause.oga
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#3c97d3"
+  adaptive_icon_foreground: "assets/icon-foreground.png"
